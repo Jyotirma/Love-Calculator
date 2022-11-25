@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Patrick+Hand&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+h4{
+    font-weight: bolder;
+    margin: 25px auto 20px 80px;
+    color: #36391b;
+}
+
+section{
+    background-color: #eff0e6;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* navigation bar */
+.navbar{
+    background-color: #563d4773;
+    padding: 15px;
+    display: flex;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.logo{
+    height: 40px;
+    padding-left: 20px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+}
+
+ul{
+    overflow: hidden;
+    /* padding-left: 5px; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.logo-name{
+    padding-left: 2px;
+}
+
+/* intro line */
+.intro{
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 33px 100px 5px;
+    align-items: center;
+    justify-content: center;
+    color: #3f4726;
+    line-height: 2;
+}
+
+/* Form */
+
+.form-cont{
+    background-color: rgba(243, 72, 72, 0.267);
+    border-radius: 10px;
+    height: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.inbox-heart{
+    height: 25%;
+    width: 15%;
+    margin: auto 208px;
+}
+
+form input{
+    margin: 10px auto 12px 123px;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn{
+    margin: 10px auto 15px 123px;
+    display: block;
+    width: 53%;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(251, 248, 248);
+    background-color: #36391b;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #eff0e6;
+    color: #36391b;
+    border-color: bisque;
+}
+
+
+/* second container */
+#second-cont{
+    position:absolute;
+    left: 0;
+    top: -100%;
+}
+
+#second-cont .form-cont h4{
+    margin: 10px auto 15px 153px;
+}
+#second-cont .form-cont h4 p{
+    margin-left: 25%;
+}
+
+/* footer part */
+.foot {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #eff0e6;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 520px) {
+    *{
+    overflow: auto;
+    }
+    .form-cont{
+        width: 300px;
+    }
+    .inbox-heart {
+        height: 25%;
+        width: 25%;
+        margin: auto 115px;
+    }
+    form input {
+        margin: 10px auto 10px 60px;
+        width: 60%;
+        font-size: 17px;
+        
+    }
+    .btn {
+        margin: 10px auto 10px 60px;
+        width: 65%;
+    }
+    #second-cont .form-cont h4{
+        margin: 10px auto 15px 80px;
+    }
+    #second-cont .form-cont {
+        margin: 77px auto;
+    }
+
+    .intro {
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 33px 50px 5px;
+    }
+}

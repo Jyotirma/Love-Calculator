@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+    <nav class="navbar">
+        <div class="img">
+            <img src="heart-img.png" class="logo" alt="heart-image">
+        </div>
+        <ul>
+            <li class="logo-name"><a href="#">Love Calculator</a></li>
+        </ul>
+      </nav>
+        
+        <div class="intro">
+            <p class = "p1"> Take the love compatibility test and find how much you score on the love calculator.</p>
+        </div>
+        <div class="form-cont">
+            <img class = "inbox-heart"src="heart.png" alt="no img">
+        <form id="form1"> 
+            <div>
+                <input type="text" id="name1" placeholder="Your name" >
+            </div>
+            <div>
+                <input type="text" id="name2" placeholder="Your Partner's name">
+            </div>
+            <button class="btn" id="btn1" type="button" onclick="result()">Know Your Score</button>
+        </form>
+        </div>
+    </section>
+    <section id="second-cont">
+        <nav class="navbar">
+            <div class="img">
+                <img src="heart-img.png" class="logo" alt="heart-image">
+            </div>
+            <ul>
+                <li class="logo-name"><a href="#">Love Calc</a></li>
+            </ul>
+          </nav>
+          <div class="intro">
+            <p id="quote"> Take the love compatibility test and find how much you score on the love calculator.</p>
+        </div>
+        <div class="form-cont">
+            <img class = "inbox-heart"src="heart.png" alt="no img">
+            <h4>Love score of <span id="r_name1">your name</span> and <span id="r_name2">partner</span> is <p id="per">90</p></span></h4>
+            <button type="button" class="btn" id="back">Go back</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+<footer class="foot">
+    &copy; 2022 Jyotirmayee Prusty. <br>
+    This is just a fun project.💕
+    Don't take the percentage too seriously.
+
+</footer>
+</html>
